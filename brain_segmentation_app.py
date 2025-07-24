@@ -76,7 +76,7 @@ def generate_preview_image_bytes(image_array):
 # --- Streamlit UI ---
 st.set_page_config(page_title="NIfTI Segmentation App", layout="centered")
 
-st.title("🧠 NIfTI Segmentation App")
+st.title("NIfTI Segmentation App")
 st.markdown("""
 Upload your `.nii` or `.nii.gz` file to get a segmentation prediction.
 This application uses your `model.h5` for actual inference and displays a 2D preview of the result.
